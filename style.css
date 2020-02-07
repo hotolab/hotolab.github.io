@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: Avenir, Arial, YuGothic, 'Yu Gothic', sans-serif;
+  color: #333;
 }
 
 header {
@@ -27,4 +28,22 @@ header > h1 {
   header > h1 {
     margin: 3em 0;
   }
+}
+
+main > dl {
+  width: 100%;
+  max-width: 30em;
+  padding: 0 1em;
+  margin: 4em auto;
+  box-sizing: border-box;
+}
+
+main > dl > dt {
+  color: darkslategray;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+main > dl > dd {
+  margin-left: 1.5em;
 }
