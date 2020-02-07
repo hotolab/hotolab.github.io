@@ -1,0 +1,30 @@
+html {
+  line-height: 1.5em;
+}
+
+body {
+  font-family: Avenir, Arial, YuGothic, 'Yu Gothic', sans-serif;
+}
+
+header {
+  color: white;
+  text-align: center;
+  background-color: darkslategrey;
+  overflow: hidden;
+}
+
+header > h1 {
+  display: inline-block;
+  font-size: 4em;
+  line-height: 1.3em;
+  border: .15em white solid;
+  border-radius: .5em;
+  padding: .5em;
+  margin: 2em .5em;
+}
+
+@media screen and (min-width: 768px) {
+  header > h1 {
+    margin: 3em 0;
+  }
+}
