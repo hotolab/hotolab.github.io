@@ -47,3 +47,17 @@ main > dl > dt {
 main > dl > dd {
   margin-left: 1.5em;
 }
+
+svg.facebook-icon {
+  fill: grey;
+  width: .8em;
+  height: .8em;
+  vertical-align: top;
+  margin-top: .3em;
+  margin-left: .2em;
+}
+
+a:hover > svg.facebook-icon,
+a:active > svg.facebook-icon {
+  fill: #4267b2;
+}
